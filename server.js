@@ -8,7 +8,7 @@ const cheerio = require("cheerio");
 
 const db = require("./models");
 
-const port = process.env.PORT || 8;
+const port = process.env.PORT || 80;
 
 const app = express();
 
